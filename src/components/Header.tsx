@@ -24,7 +24,7 @@ const Header = ({ restart, openAboutModal }: HeaderProps) => {
     const { systemTheme } = useThemeContext();
 
     return (
-        <header className='flex items-center justify-between py-8 mx-4'>
+        <header className='flex items-center justify-between py-8'>
             <div
                 className='flex cursor-pointer items-center gap-3'
                 style={{

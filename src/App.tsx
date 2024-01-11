@@ -32,7 +32,7 @@ function App() {
       }}
     >
       <div className='block lg:hidden'>This feature is not supported on mobile </div>
-      <div className='lg:block hidden'>
+      <div className='lg:block hidden mx-8'>
         <Header />
         <TimeCategory
           time={time}
